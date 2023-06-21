@@ -1,0 +1,21 @@
+﻿  BOSS.cpp
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(18,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 2 из "LPSTR" в "LPWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(18,50): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\processthreadsapi.h(372,1): message : см. объявление "CreateProcessW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(18,10): message : при попытке сопоставить список аргументов "(int, LPSTR, int, int, int, int, int, int, STARTUPINFO *, PROCESS_INFORMATION *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(29,27): error C2664: "HANDLE CreateEventW(LPSECURITY_ATTRIBUTES,BOOL,BOOL,LPCWSTR)": невозможно преобразовать аргумент 4 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(29,59): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(440,1): message : см. объявление "CreateEventW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(29,27): message : при попытке сопоставить список аргументов "(int, int, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(30,26): error C2664: "HANDLE CreateEventW(LPSECURITY_ATTRIBUTES,BOOL,BOOL,LPCWSTR)": невозможно преобразовать аргумент 4 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(30,58): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(440,1): message : см. объявление "CreateEventW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(30,26): message : при попытке сопоставить список аргументов "(int, int, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(31,25): error C2664: "HANDLE CreateSemaphoreW(LPSECURITY_ATTRIBUTES,LONG,LONG,LPCWSTR)": невозможно преобразовать аргумент 4 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(31,53): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(748,1): message : см. объявление "CreateSemaphoreW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(31,25): message : при попытке сопоставить список аргументов "(int, int, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(32,21): error C2664: "HANDLE CreateMutexW(LPSECURITY_ATTRIBUTES,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(32,46): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(400,1): message : см. объявление "CreateMutexW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\LAB4\BOSS.cpp(32,21): message : при попытке сопоставить список аргументов "(int, int, const char *)"

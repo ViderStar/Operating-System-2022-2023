@@ -1,0 +1,4 @@
+﻿  Consume.cpp
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Consume\Consume.cpp(10,16): warning C4312: приведение типов: преобразование из "int" в "HANDLE" большего размера
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Consume\Consume.cpp(11,15): warning C4312: приведение типов: преобразование из "int" в "HANDLE" большего размера
+  Consume.vcxproj -> D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\x64\Debug\Consume.exe

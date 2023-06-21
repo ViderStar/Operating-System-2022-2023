@@ -1,0 +1,6 @@
+﻿  Server.cpp
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Server\Server.cpp(77,44): warning C4311: приведение типов: усечение указателя из "HANDLE" в "int"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Server\Server.cpp(77,44): warning C4302: приведение типов: усечение из "HANDLE" к "int"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Server\Server.cpp(78,12): warning C4311: приведение типов: усечение указателя из "HANDLE" в "int"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\Server\Server.cpp(78,12): warning C4302: приведение типов: усечение из "HANDLE" к "int"
+  Server.vcxproj -> D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab5\x64\Debug\Server.exe

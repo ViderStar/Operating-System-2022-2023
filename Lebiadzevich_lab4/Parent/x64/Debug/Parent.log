@@ -1,0 +1,13 @@
+﻿  Parent.cpp
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(9,27): error C2664: "HANDLE OpenEventW(DWORD,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(9,62): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(466,1): message : см. объявление "OpenEventW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(9,27): message : при попытке сопоставить список аргументов "(long, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(10,26): error C2664: "HANDLE OpenEventW(DWORD,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(10,61): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(466,1): message : см. объявление "OpenEventW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(10,26): message : при попытке сопоставить список аргументов "(long, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(11,25): error C2664: "HANDLE OpenSemaphoreW(DWORD,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(11,68): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(481,1): message : см. объявление "OpenSemaphoreW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Parent\Parent.cpp(11,25): message : при попытке сопоставить список аргументов "(long, int, const char *)"

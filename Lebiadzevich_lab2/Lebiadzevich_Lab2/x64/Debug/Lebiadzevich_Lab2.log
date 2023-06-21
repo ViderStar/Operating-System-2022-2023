@@ -1,0 +1,3 @@
+﻿D:\Programs\MVS\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Lebiadzevich_Lab2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Lebiadzevich_Lab2.cpp
+  Lebiadzevich_Lab2.vcxproj -> C:\Users\Admin\source\repos\Lebiadzevich_Lab2\x64\Debug\Parent.exe

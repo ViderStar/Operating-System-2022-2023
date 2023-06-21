@@ -1,0 +1,9 @@
+﻿  Child.cpp
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(8,26): error C2664: "HANDLE OpenEventW(DWORD,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(8,61): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(466,1): message : см. объявление "OpenEventW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(8,26): message : при попытке сопоставить список аргументов "(long, int, const char *)"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(9,21): error C2664: "HANDLE OpenMutexW(DWORD,BOOL,LPCWSTR)": невозможно преобразовать аргумент 3 из "const char *" в "LPCWSTR"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(9,56): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\synchapi.h(415,1): message : см. объявление "OpenMutexW"
+D:\Уроки\Operating Systems 2022-2023\Lebiadzevich_13_lab4\Child\Child.cpp(9,21): message : при попытке сопоставить список аргументов "(long, int, const char *)"

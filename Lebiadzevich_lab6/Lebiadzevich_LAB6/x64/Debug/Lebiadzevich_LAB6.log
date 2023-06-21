@@ -1,0 +1,4 @@
+﻿  Lebiadzevich_LAB6.cpp
+C:\Users\Admin\source\repos\Lebiadzevich_LAB6\Lebiadzevich_LAB6\Lebiadzevich_LAB6.cpp(23,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\Lebiadzevich_LAB6\Lebiadzevich_LAB6\Lebiadzevich_LAB6.cpp(64,25): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  Lebiadzevich_LAB6.vcxproj -> C:\Users\Admin\source\repos\Lebiadzevich_LAB6\x64\Debug\Lebiadzevich_LAB6.exe
